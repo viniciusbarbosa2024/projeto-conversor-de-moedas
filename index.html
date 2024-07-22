@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de moedas </title>
+    <title>Conversor de Moedas</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main>
-        <h1>Conversor de moedas</h1>
+        <h1>Conversor de Moedas</h1>
 
-        <div>
+        <div class="input-group">
             <label for="valueToConvert">R$</label>
             <input type="number" name="valueToConvert" id="valueToConvert">
         </div>
 
-        <div>
+        <div class="radio-group">
             <input type="radio" name="currency" id="USD">
-            <label for="USD">Dolár</label>
+            <label for="USD">Dólar</label>
 
-            <input type="radio" name="currrency" id="EUR">
+            <input type="radio" name="currency" id="EUR">
             <label for="EUR">Euro</label>
 
             <input type="radio" name="currency" id="GBP">
             <label for="GBP">Libra</label>
         </div>
 
-        <input type="button" value="Converter">
+        <button>Converter</button>
 
         <div id="result">
-            
+            Informe o valor a ser convertido
         </div>
     </main>
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
