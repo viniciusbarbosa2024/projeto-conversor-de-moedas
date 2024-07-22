@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Conversor de moedas</h1>
+
+        <div>
+            <label for="valueToConvert">R$</label>
+            <input type="number" name="valueToConvert" id="valueToConvert">
+        </div>
+
+        <div>
+            <input type="radio" name="currency" id="USD">
+            <label for="USD">Dolár</label>
+
+            <input type="radio" name="currrency" id="EUR">
+            <label for="EUR">Euro</label>
+
+            <input type="radio" name="currency" id="GBP">
+            <label for="GBP">Libra</label>
+        </div>
+
+        <input type="button" value="Converter">
+
+        <div id="result">
+            
+        </div>
+    </main>
+<script src="js/script.js"></script>
+</body>
+</html>
